@@ -1,0 +1,261 @@
+body {
+	background: url(../img/background.jpg) no-repeat ;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/*---------HEADER-----------*/
+.header {
+	width: 100%;
+	height: 36px;
+	background: url(../img/background-menu.jpg) repeat-x;
+}
+.pages {
+	width: 338px;
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	border-left: 1px solid rgb(86, 162, 220);
+}
+.page, 
+.register{
+	position: relative;
+	float: right;
+
+}
+.register {
+	padding: 10px 11px 10px 13px;
+	margin-left: 17px;
+	background-image: linear-gradient(to top, rgb(46, 122, 196), rgb(81, 177, 220)) ;
+	border: 1px solid  rgb(67, 153, 211);
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	color: white;
+}
+.register a {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	color: white;
+	text-decoration: underline;
+}
+.page{
+	width: 125px;
+}
+.page img {
+	position: relative;
+	float: left;
+	margin: 6px 8px 0 0;
+}
+.page p {
+	padding-top: 10px;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	color: white;
+}
+/*-----menu------*/
+.panel > ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+	margin-right: 20px;
+}
+.panel > ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.menu > li {
+    float: left;
+    position: relative;
+    margin-left: 10px;
+}
+ul.menu > li > a {
+    display: block;
+    padding: 11px;
+    color: #60b5ed;
+    font-family: Tahoma, sans-serif;
+	font-size: 14px;
+    text-decoration: none;
+}
+ul.menu > li > a:hover {
+	display: block;
+    padding: 11px;
+    background: #4aadda;
+    color: white;
+    font-family: Tahoma, sans-serif;
+	font-size: 14px;
+    text-decoration: none;
+
+}
+/*-------------END TEADER-------------------*/
+/*-----------FORMA----------------*/
+.conteiner {
+	width: 560px;
+	height: 613px;
+	position: absolute;
+    top: 20%;
+    left: 50%;
+    bottom: 20%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+.codast {
+	width: 560px;
+	height: 62px;
+	background: rgba(0,0,0,0.63);
+	margin-bottom: 2px;
+}
+.codast p {
+	padding-top: 22px;
+	text-align: center;
+	color: white;
+	font-family: Tahoma, sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.fraim {
+	width: 560px;
+	height: 547px;
+	position: relative;
+	background: rgba(0,0,0,0.63);\
+}
+.wraper {
+	width: 276px;
+	height: 100px;
+	position: relative;
+	top: 35px;
+	margin: 0 auto ;
+}
+/*-------FACEBOOK---*/
+.box1 {
+	width: 37px;
+	height: 34px;
+	float: left;
+	border-radius: 5px 0 0 5px;
+	background: linear-gradient(to top, rgb(46, 65, 116), rgb(59, 86, 157));
+	border-top: 1px solid #778ab5;
+	border-right: 1px solid #1f3c76;
+}
+.box1 p{
+	padding: 6px  0 0 15px;
+	font-size: 24px;
+	font-family: Tahoma,sans-serif;
+	text-shadow: 0 1px 1px black;
+	color: white;
+}
+.box1 p b {
+	font-weight: 600;
+}
+.box2 {
+	width: 237px;
+	height: 34px;
+	position: relative;
+	float: left;
+	border-radius: 0 5px 5px 0;
+	background: linear-gradient(to top, rgb(46, 65, 116), rgb(59, 86, 157));
+	border-top: 1px solid #778ab5;
+	border-left: 1px solid #4d66a6;
+}
+.box2 p {
+	padding: 8px  0 0 25px;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+	text-shadow: 0 1px 1px black;
+	color: white;
+}
+.box2 p b {
+	font-weight: 600;
+}
+/*-----LINE OU----*/
+.line {
+	width: 276px;
+	position: relative;
+	padding-top: 31px;
+	overflow: hidden;
+}
+.line p {
+	text-align: center;
+	color: #999;
+	font-family: Tahoma;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+} 
+.lines:before,
+.lines:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 100%;
+	height: 2px;
+	background: #666;
+	border:  solid rgba(0,0,0,0);
+    -moz-background-clip: border;     
+    -webkit-background-clip: border;  
+    background-clip: border-box;
+    -moz-background-clip: padding;     
+    -webkit-background-clip: padding; 
+    background-clip: padding-box;
+    -moz-background-clip: content;     
+    -webkit-background-clip: content;  
+    background-clip: content-box;  
+	border-width: 0 10px;
+	border-bottom: 1px solid #000; 
+}
+.lines:before {
+	margin-left: -100%;
+}
+.lines:after {
+	margin-right: -100%;
+}
+/*-----forma--------*/
+.forma {
+	padding-top: 24px;
+}
+.forma label input {
+	width: 260px;
+	height: 34px;
+	margin-bottom: 20px;
+	padding-left: 18px;
+	background-image: linear-gradient(to top, #111 0%, #0e0d0d 100%);
+	box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), inset 0 0 2px rgba(0, 0, 0, 0.1);
+	color: #ccc;
+	border: none;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.forma label input:focus {
+	background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+	box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+.forma span {
+	display: inline-block;
+	margin-bottom: 25px;
+	color: #ccc;
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+}
+.submit {
+	display: inline-block;
+	margin: 0 auto;
+}
+.footer {
+	width: 310px;
+	margin-top: 22px;
+}
+.footer p {
+	color: #ccc;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 16px;
+}
