@@ -102,8 +102,8 @@ ul.menu > li > a:hover {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: calc( -560px / 2); 
-	margin-top: calc( -613px / 2);
+	transform: translateX(-50%) 
+	translateY(-50%);
 }
 .codast {
 	width: 560px;
@@ -220,7 +220,7 @@ ul.menu > li > a:hover {
 .forma {
 	padding-top: 24px;
 }
-.forma label input {
+.forma .stroka input {
 	width: 260px;
 	height: 34px;
 	margin-bottom: 20px;
@@ -234,11 +234,11 @@ ul.menu > li > a:hover {
 	font-weight: 400;
 	line-height: 16px;
 }
-.forma label input:focus {
+.forma .stroka input:focus {
 	background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
 	box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2), 0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
 }
-.forma span {
+.forma label span{
 	display: inline-block;
 	margin-bottom: 25px;
 	color: #ccc;
